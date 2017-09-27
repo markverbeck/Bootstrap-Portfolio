@@ -1,0 +1,255 @@
+
+/* Nav Bar */
+
+.background{
+	background-color: white;
+}
+
+.background-blue{
+	background-color: #00aea6;
+}
+
+.background-grey{
+	background-color: #808080;
+	width: 117%;
+	border-top: solid 8px #00aea6;
+    margin-top: 30px;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:white;
+
+}
+.margin0{
+	/*margin:0 auto;*/
+	
+	margin-left: -15px;
+    width: 88%;
+}
+
+
+.navbar-default
+.navbar-brand{
+	color:white;
+	font-family: 'Georgia', 'Times, Times New Roman', serif;
+
+}
+.navbar>.container .navbar-brand,
+ .navbar>.container-fluid 
+ .navbar-brand{
+	margin-left: 80px;
+    height: 86px;
+    padding-top: 32px;
+    width: 278px;
+    padding-left: 39px;
+    font-size: 2em;
+    font-weight: bold;
+   
+
+}
+
+.border-bottom{
+	border-bottom: solid 2px #d3d3d3;
+}
+.ul-padding{
+	padding-right: 100px;
+    padding-top: 18px;
+    font-size: 18px;
+
+}
+
+.list-border{
+	border-right: lightgrey solid 1px;
+}
+
+.background-image{
+	background-image: url(wormz.png);
+}
+
+/* About Me */
+
+.h2-aboutme{
+	color: #00aea6;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border-bottom: solid 3px lightgrey;
+    padding-bottom: 30px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    font-weight: bold
+}
+
+.float-left{
+	float: left;
+    width: 240px;
+    height: 250px;
+    padding-top: 10px;
+    padding-right: 13px;
+    padding-left: 30px;
+}
+
+.main-text{
+	line-height: 30px;
+	font-size: 18px;
+	color: #777777;
+	font-style: normal;
+	padding: 30px;
+    padding-top: 10px;
+}
+
+
+/* connect wih me */
+
+.icon-size{
+	width:67px;
+}
+
+.icon-margin{
+	margin-left: 28px;
+	margin-bottom: 23px;
+	float: left;
+}
+
+.icon-margin2{
+	padding-left: 7px;
+	margin-bottom: 23px;
+	float: left;
+}
+
+
+
+
+/* Footer */
+.padding{
+	padding: 30px;
+}
+
+/* contact */
+.height{
+	height: 125px;
+}
+
+.margin-bottom{
+	margin-bottom: 10px;
+}
+.position-relative{
+	position: relative;
+}
+
+
+/* Portfolio */
+
+#segovia-pic{
+	/*clear: both;*/
+	width: 40%;
+	/*position: absolute;*/
+	/*left: 40px;*/
+	/*z-index: 1;*/
+	margin-left: 6%;
+    margin-right: 8%;
+    float: left;
+
+}
+
+#segovia {
+	background-color: #00aea6;
+    width: 38.3%;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    /* right: 61px; */
+    top: 288px;
+    left: 54px;
+}
+
+ 
+
+#hurt-pic{
+	width: 40%;
+	height: 266px;
+	/*position: absolute;*/
+	/*right: 40px;*/
+	/*top: 30px;*/
+}
+
+#hurt{
+	background-color: #00aea6;
+    width: 38.3%;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    right: 54px;
+    top: 290px;
+
+}
+
+.johnson-pic{
+	width: 40%;
+	height: 265px;
+	/*position: absolute;*/
+	/*left: 40px;*/
+	/*top:34%;*/
+	margin-left: 6%;
+    margin-right: 8%;
+    margin-top: 4%;
+    float: left;
+}
+
+#johnson{
+	background-color: #00aea6;
+    width: 38.3%;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    /* right: 61px; */
+    top: 579px;
+    left: 54px;
+
+}
+
+.watson-pic{
+	width: 40%;
+    height: 267px;
+    /* position: absolute; */
+    /* right: 40px; */
+    /* top: 34%; */
+    margin-top: 25px;
+
+}
+#watson{
+	background-color: #00aea6;
+    width: 38.3%;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    right: 54px;
+    top: 580px;
+}
+
+.wolf-pic{
+	width: 40%;
+	height: 265px;
+	/*position: absolute;*/
+	/*left: 40px;*/
+	/*top:75%;*/
+	margin-top: 3%;
+    margin-left: 6%;
+    margin-bottom: 30px;
+}
+#wolf{
+	background-color: #00aea6;
+    width: 38.3%;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    /* right: 61px; */
+    top: 866px;
+    left: 54px;
+
+
+}
+
+
