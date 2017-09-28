@@ -2,15 +2,19 @@
 <html>
 <head>
 	<title>Mark Verbeck Portfolio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js:6"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/reset/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/pseuodocss.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
 	 
 </head>
 	   
 <body class="background-image">
 	<header>
-		<nav class="navbar navbar-default background border-bottom">
+		<!-- <nav class="navbar navbar-default background border-bottom">
   			<div class="container-fluid">
     			<div class="navbar-header">
       				<a class="navbar-brand background-blue margin-left">Mark Verbeck</a>
@@ -22,6 +26,30 @@
 			      <li><a class="list-border" href="contact.html">Contact</a></li>
 			    </ul>
 			</div>
+		</nav> -->
+
+		<nav class="navbar navbar-inverse background border-bottom">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand background-blue margin-left" href="#">Mark Verbeck</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right ul-padding hover">
+		        <li><a class="list-border" href="index.html">About</a></li>
+		        <li><a class="list-border" href="portfolio.html">Portfolio</a></li> 
+		        <li><a class="list-border" href="contact.html">Contact</a></li> 
+		      </ul>
+		     <!--  <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul> -->
+		    </div>
+		  </div>
 		</nav>
 	</header>
 
@@ -35,10 +63,12 @@
 			</section>
 			<div class="col-lg-1"></div>
 			<section class="col-lg-3 background sidebar-margin">
-				<h2 class="h2-aboutme text-center">Connect with Me</h2>
-			  	<a  href="https://github.com/markverbeck" target="_blank"><img class=" img-responsive icon-size icon-margin  " src="assets/images/github.png" alt="git hub logo"></a>
-			  	<a href="https://www.linkedin.com/in/mark-verbeck-523596103/" target="_blank"><img class="img-responsive icon-size icon-margin2 " src="assets/images/Link.png" alt="linkedin logo"></a>
-			  	<a href="https://stackoverflow.com/users/8365161/mark-verbeck" target="_blank"><img class="img-responsive icon-size icon-margin2 " src="assets/images/stack.png" alt="stackoverflow logo"></a>
+				<div class="text-center">
+					<h2 class="h2-aboutme">Connect with Me</h2>
+				  	<a class="displayIB" href="https://github.com/markverbeck" target="_blank"><img class=" img-responsive icon-size icon-margin  " src="assets/images/github.png" alt="git hub logo"></a>
+				  	<a class="displayIB" href="https://www.linkedin.com/in/mark-verbeck-523596103/" target="_blank"><img class="img-responsive icon-size icon-margin2 " src="assets/images/Link.png" alt="linkedin logo"></a>
+				  	<a class="displayIB" href="https://stackoverflow.com/users/8365161/mark-verbeck" target="_blank"><img class="img-responsive icon-size icon-margin2 " src="assets/images/stack.png" alt="stackoverflow logo"></a>
+			  	</div>
 			</section>
 		</div>  <!-- row -->
 	</div>  <!-- container -->
